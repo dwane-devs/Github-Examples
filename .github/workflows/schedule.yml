@@ -4,7 +4,7 @@ on:
 
 jobs:
   hello_world:
-    runs-on: MacBookPro
+    runs-on: self-hosted
     steps:
       - name: Echo current time
         run: echo "The current server time is $(date)"
